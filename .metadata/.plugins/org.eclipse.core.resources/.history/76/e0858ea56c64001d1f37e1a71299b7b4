@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : Hello.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct{
+	int id;
+	char nombre[20];
+	char apellido[20];
+	char sexo;
+	float altura;
+}ePersona;
+
+int main(void) {
+ePersona ={123,"juan","perez",'m',1.76};
+
+
+	return EXIT_SUCCESS;
+}

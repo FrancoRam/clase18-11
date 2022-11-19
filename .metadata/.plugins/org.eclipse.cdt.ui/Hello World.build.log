@@ -1,0 +1,11 @@
+19:35:31 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:23:17: warning: unused variable 'persona' [-Wunused-variable]
+        ePersona persona={123,"juan","perez",'m',1.76};
+                 ^~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+
+19:35:32 Build Finished. 0 errors, 1 warnings. (took 622ms)
+

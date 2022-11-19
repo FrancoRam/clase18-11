@@ -1,0 +1,10 @@
+19:53:27 **** Incremental Build of configuration Debug for project Clase18-11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase18-11.o" "..\\src\\Clase18-11.c" 
+..\src\Clase18-11.c: In function 'main':
+..\src\Clase18-11.c:26:26: error: invalid operands to binary % (have 'float' and 'int')
+   numero =(float) rand() % (max-min+1)+min;
+           ~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~
+
+19:53:28 Build Failed. 1 errors, 0 warnings. (took 649ms)
+
